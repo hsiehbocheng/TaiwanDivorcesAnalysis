@@ -7,7 +7,44 @@
 空間範圍：全國\
 空間統計單元：鄉鎮市區\
 樣本數：358\
-缺失值：17\
+缺失值：17
+
+```r
+> summary(Divdata)
+      X                離婚對數          粗結婚率     X107自然增加率   
+ Length:358         Min.   :   4.00   Min.   :1.080   Min.   :-16.300  
+ Class :character   1st Qu.:  29.25   1st Qu.:4.133   1st Qu.: -5.905  
+ Mode  :character   Median :  62.50   Median :4.795   Median : -1.960  
+                    Mean   : 142.68   Mean   :4.771   Mean   : -2.599  
+                    3rd Qu.: 185.50   3rd Qu.:5.338   3rd Qu.:  1.030  
+                    Max.   :1148.00   Max.   :9.690   Max.   :  7.090  
+                                                                       
+ X107社會增加率      X107粗結婚率    X107粗離婚率   X108自然增加率    
+ Min.   :-18.4700   Min.   :2.250   Min.   :1.000   Min.   :-18.4100  
+ 1st Qu.: -5.1075   1st Qu.:4.625   1st Qu.:1.920   1st Qu.: -5.6950  
+ Median : -1.5300   Median :5.340   Median :2.225   Median : -2.2850  
+ Mean   :  0.7171   Mean   :5.288   Mean   :2.268   Mean   : -2.6804  
+ 3rd Qu.:  4.0550   3rd Qu.:5.975   3rd Qu.:2.550   3rd Qu.:  0.6825  
+ Max.   : 90.9400   Max.   :9.520   Max.   :4.720   Max.   : 11.0500  
+                                                                      
+ X108社會增加率     X108粗結婚率    X108粗離婚率      性比例           扶養比     
+ Min.   :-49.910   Min.   :2.100   Min.   :0.79   Min.   : 86.43   Min.   :28.46  
+ 1st Qu.: -8.678   1st Qu.:4.720   1st Qu.:1.94   1st Qu.: 99.79   1st Qu.:36.69  
+ Median : -3.870   Median :5.305   Median :2.24   Median :105.08   Median :39.83  
+ Mean   : -3.503   Mean   :5.277   Mean   :2.28   Mean   :105.53   Mean   :40.47  
+ 3rd Qu.:  0.875   3rd Qu.:5.780   3rd Qu.:2.53   3rd Qu.:111.54   3rd Qu.:44.09  
+ Max.   : 43.730   Max.   :8.520   Max.   :5.77   Max.   :128.97   Max.   :58.26  
+                                                                                  
+    老化指數      大學院校人口數   不含車位中位數房價
+ Min.   : 35.56   Min.   :   345   Min.   :  224811  
+ 1st Qu.:108.48   1st Qu.:  2450   1st Qu.: 3660000  
+ Median :161.97   Median :  6196   Median : 5750000  
+ Mean   :179.86   Mean   : 16282   Mean   : 6348747  
+ 3rd Qu.:232.37   3rd Qu.: 19666   3rd Qu.: 7600000  
+ Max.   :595.00   Max.   :142771   Max.   :84000000  
+                                   NA's   :17    
+```
+
 
 ## **Abstract**
 * 遺失值處理\
